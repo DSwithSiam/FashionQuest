@@ -19,3 +19,11 @@
 .airpadbg{
     background: #ADC2D7;
 }
+
+.borderNone {
+    border: none;
+  }
+
+.solid{
+    border-top: 3px solid #000000;
+}
