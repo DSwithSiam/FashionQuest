@@ -1,385 +1,372 @@
 <!DOCTYPE html>
 <html lang="en">
-    <head>
-        <meta charset="UTF-8">
-        <meta name="viewport" content="width=device-width, initial-scale=1.0">
-        <link rel="stylesheet" href="style.css">
-        <link
-            href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css"
-            rel="stylesheet"
-            integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN"
-            crossorigin="anonymous"
-        >
-        <script src="https://kit.fontawesome.com/963cd7a42e.js" crossorigin="anonymous"></script>
-        <link rel="stylesheet" href="path/to/font-awesome/css/font-awesome.min.css">
-        <title>Document</title>
-    </head>
-    <body>
-        <!-- Header -->
-        <header>
-            <nav class="row navbar nav justify-content-lg-center justify-content-around   ">
-                <!-- logo -->
-                <div class="col-lg-3 col-4">
-                    <img class="logo" src="images/logo.png" alt="">
-                </div>
-                <!-- search -->
-                <div class="col-lg-3 d-none d-lg-block   form-outline">
-                    <input
-                        type="search"
-                        id="form1"
-                        class="form-control"
-                        placeholder="Search"
-                        aria-label="Search"
-                    >
-                </div>
-                <!-- menus -->
-                <div class="col-lg-3 col-2 col-md-1  navbar-expand-lg ">
-                    <button
-                        class="navbar-toggler bg-white"
-                        type="button"
-                        data-bs-toggle="collapse"
-                        data-bs-target="#navbarNav"
-                        aria-controls="navbarNav"
-                        aria-expanded="false"
-                        aria-label="Toggle navigation"
-                    >
-                        <span class="navbar-toggler-icon"></span>
-                    </button>
-                    <div class="collapse navbar-collapse " id="navbarNav ">
-                        <ul class="navbar-nav">
-                            <li class="nav-item">
-                                <a class="nav-link active text-white" aria-current="page" href="#">Home</a>
-                            </li>
-                            <li class="nav-item">
-                                <a class="nav-link text-white" href="#">Features</a>
-                            </li>
-                            <li class="nav-item">
-                                <a class="nav-link text-white" href="#">Pricing</a>
-                            </li>
-                            <li class="nav-item">
-                                <a
-                                    class="nav-link disabled text-white"
-                                    href="#"
-                                    tabindex="-1"
-                                    aria-disabled="true"
-                                >Disabled</a>
-                            </li>
-                            <li class="nav-item">
-                                <a
-                                    class="nav-link disabled text-white"
-                                    href="#"
-                                    tabindex="-1"
-                                    aria-disabled="true"
-                                >
-                                    <i class="fa-solid fa-cart-shopping" style="color: #ffffff;"></i>
-                                </a>
-                            </li>
-                            <li class="nav-item">
-                                <a
-                                    class="nav-link disabled text-white"
-                                    href="#"
-                                    tabindex="-1"
-                                    aria-disabled="true"
-                                >
-                                    <i class="fa-regular fa-user" style="color: white ;"></i>
-                                </a>
-                            </li>
-                        </ul>
-                    </div>
-                </div>
-            </nav>
-        </header>
-        <main>
-            <!-- section 1 Carosel -->
-            <div class="">
-                <div
-                    id="carouselExampleControls"
-                    class="carousel slide bg-info "
-                    style="background: url('Images/bg.png'), lightgray 50% / cover no-repeat; "
-                    data-bs-ride="carousel"
-                >
-                    <div class="carousel-inner">
-                        <div class="carousel-item active ">
-                            <div class="row ">
-                                <div class="col-md-8 mt-lg-5 col-11 d-flex justify-content-center">
-                                    <div class="carosel_title">
-                                        <P class="m-0 text-secondary ">Pro.Beyond.</P>
-                                        <p class="m-0 text_size1">IPhone
-                                            <b>14 Pro</b>
-                                        </p>
-                                        <small class="">Created to change everything for the better. For everyone</small><br>
-                                        <a class="bg-info px-4 my-3  btn">Shop Now</a>
-                                    </div>
-                                </div>
-                                <div class="col-md-4 col-11 pt-5  d-flex justify-content-center">
-                                    <img src="Images/Iphone.png" class="w-25 alt="...">
-                                </div>
-                            </div>
-                        </div>
-                        <div class="carousel-item ">
-                            <div class="row ">
-                                <div class="col-md-8 mt-lg-5 d-flex justify-content-center">
-                                    <div class="carosel_title">
-                                        <P class="m-0 text-secondary ">Pro.Beyond.</P>
-                                        <p class="m-0 text_size1">Walton
-                                            <b>PRIMO ZX4</b>
-                                        </p>
-                                        <small class="">Created to change everything for the better. For everyone</small><br>
-                                        <button class="bg-info px-4 my-3  btn">Shop Now</button>
-                                    </div>
-                                </div>
-                                <div class="col-md-4 " style="margin-top: 50px;">
-                                    <img src="Images/Iphone.png" class="w-25 " alt="...">
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                    <button
-                        class="carousel-control-prev"
-                        type="button"
-                        data-bs-target="#carouselExampleControls"
-                        data-bs-slide="prev"
-                    >
-                        <span class="carousel-control-prev-icon" aria-hidden="true"></span>
-                        <span class="visually-hidden">Previous</span>
-                    </button>
-                    <button
-                        class="carousel-control-next"
-                        type="button"
-                        data-bs-target="#carouselExampleControls"
-                        data-bs-slide="next"
-                    >
-                        <span class="carousel-control-next-icon" aria-hidden="true"></span>
-                        <span class="visually-hidden">Next</span>
-                    </button>
-                </div>
-                <!-- section 2 -->
-                <section>
-                    <div class="bg-white">
-                        <div class="row">
-                            <div class="col-lg-6 col-12">
-                                <div class="row">
-                                    <div class="col-5">
-                                        <img style="height: 200px;" class="pt-2" src="Images/ipad.png" alt="">
-                                    </div>
-                                    <div class="col-7 d-inline-flex p-2 pt-3">
-                                        <div>
-                                            <p class="fs-2">iPad 9</p>
-                                            <p class="">Apple iPad 9th Generation, 10.2-inch Retina, A13 Bionic, 64GB, 256GB A13 Bionic...
-                                            </p>
-                                        </div>
-                                    </div>
-                                </div>
-                                <div class="row airpadbg ">
-                                    <div class="col-8 ">
-                                        <img class="w-50" src="Images/Iphone14pro 1.png" alt="">
-                                    </div>
-                                    <div class="col-4 pt-3 p-2 ">
-                                        <p class="fs-4 m-0">Apple <br> AirPods <br><b>Max</b></p>
-                                        <p class="m-0 text-white">The ultimate personal listening experience is here.</p>
-                                    </div>
-                                </div>
-                            </div>
-                            <div style="background-color: #e6e4e4;" class="col-lg-6 col-12 pt-3" >
-                                <div class="row align-items-center ">
-                                    <div class="col-md-7 col-lg-7 pt-lg-5 col-11 ps-5">
-                                        <p class="fs-2">Macbook <br><b>Air</b></p>
-                                        <p class="">Get up to ₹8000.00 instant savings on selected Mac models. Plus No Cost EMI. Terms apply. Customise your Mac. </p>
-                                    </div>
-                                    <div class="col-md-5 col-lg-5 col-11 pt-5 ">
-                                        <img src="Images/macbook.png" style="height: 350px;" alt="">
-                                    </div>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                </section>
 
-                <section class="justify-content-center pt-5">
-                    <div class="col-11 col-lg-10 m-auto d-flex justify-content-between">
-                        
-                            <p class="fw-bold">Browse By Category</p>
-                        
-                            <div>
-                                <i class="fa-solid fa-less-than" style="color: #000000;"></i>
-                                <i class="fa-solid fa-greater-than" style="color: #000000;"></i>
-                            </div>
-                        
-                    </div>
-                    <div class="row justify-content-center  ">
-                        <div class="col-11 col-lg-10 m-auto">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" crossorigin="anonymous">
+    <script src="https://kit.fontawesome.com/963cd7a42e.js" crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="path/to/font-awesome/css/font-awesome.min.css">
+    <title>Document</title>
+</head>
+
+<body>
+    <!-- Header -->
+    <header>
+        <nav class="row navbar nav justify-content-lg-center justify-content-around   ">
+            <!-- logo -->
+            <div class="col-lg-3 col-4">
+                <img class="logo" src="images/logo.png" alt="">
+            </div>
+            <!-- search -->
+            <div class="col-lg-3 d-none d-lg-block   form-outline">
+                <input type="search" id="form1" class="form-control" placeholder="Search" aria-label="Search">
+            </div>
+            <!-- menus -->
+            <div class="col-lg-3 col-2 col-md-1  navbar-expand-lg ">
+                <button class="navbar-toggler bg-white" type="button" data-bs-toggle="collapse"
+                    data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false"
+                    aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+                <div class="collapse navbar-collapse " id="navbarNav ">
+                    <ul class="navbar-nav">
+                        <li class="nav-item">
+                            <a class="nav-link active text-white" aria-current="page" href="#">Home</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link text-white" href="#">Features</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link text-white" href="#">Pricing</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link disabled text-white" href="#" tabindex="-1"
+                                aria-disabled="true">Disabled</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link disabled text-white" href="#" tabindex="-1" aria-disabled="true">
+                                <i class="fa-solid fa-cart-shopping" style="color: #ffffff;"></i>
+                            </a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link disabled text-white" href="#" tabindex="-1" aria-disabled="true">
+                                <i class="fa-regular fa-user" style="color: white ;"></i>
+                            </a>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </nav>
+    </header>
+    <main>
+        <!-- section 1 Carosel -->
+        <div class="">
+            <div id="carouselExampleControls" class="carousel slide bg-info row"
+                style="background: url('Images/bg.png'), lightgray 50% / cover no-repeat; " data-bs-ride="carousel">
+                <div class="carousel-inner">
+                    <div class="carousel-item active ">
                         <div class="row ">
-                            <div class="col-6 col-lg-2 text-center card p-2 mt-2 border-0">
+                            <div class="col-md-8 mt-lg-5 col-12 d-flex justify-content-center">
+                                <div class="carosel_title">
+                                    <P class="m-0 text-secondary ">Pro.Beyond.</P>
+                                    <p class="m-0 text_size1">IPhone
+                                        <b>14 Pro</b>
+                                    </p>
+                                    <small class="">Created to change everything for the better. For
+                                        everyone</small><br>
+                                    <a class="bg-info px-4 my-3  btn">Shop Now</a>
+                                </div>
+                            </div>
+                            <div style="margin-bottom: -200px;"
+                                class="col-md-4 col-12 pt-5  d-flex justify-content-center">
+                                <img src="Images/Iphone.png" class="w-50 alt=" ...">
+                            </div>
+                        </div>
+                    </div>
+                    <div class="carousel-item">
+                        <div class="row ">
+                            <div class="col-md-8 mt-lg-5 col-12 d-flex justify-content-center">
+                                <div class="carosel_title">
+                                    <P class="m-0 text-secondary ">Pro.Beyond.</P>
+                                    <p class="m-0 text_size1">IPhone
+                                        <b>12 Pro</b>
+                                    </p>
+                                    <small class="">Created to change everything for the better. For
+                                        everyone</small><br>
+                                    <a class="bg-info px-4 my-3  btn">Shop Now</a>
+                                </div>
+                            </div>
+                            <div style="margin-bottom: -200px;"
+                                class="col-md-4 col-12 pt-5  d-flex justify-content-center">
+                                <img src="Images/Iphone.png" class="w-50 alt=" ...">
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleControls"
+                    data-bs-slide="prev">
+                    <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                    <span class="visually-hidden">Previous</span>
+                </button>
+                <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleControls"
+                    data-bs-slide="next">
+                    <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                    <span class="visually-hidden">Next</span>
+                </button>
+            </div>
+            <!-- section 2 -->
+            <section>
+                <div class="bg-white overflow-hidden">
+                    <div class="row">
+                        <div class="col-lg-6 col-12">
+                            <div class="row">
+                                <div class="col-5 pt-3 overflow-hidden align-self-end">
+                                    <img style=" margin-bottom: -20px;" class="pt-2 w-100 align " src="Images/ipad.png"
+                                        alt="">
+                                </div>
+                                <div class="col-7 d-inline-flex p-2 pt-3 align-items-center">
+                                    <div>
+                                        <p class="fs-2">iPad 9</p>
+                                        <p class="">Apple iPad 9th Generation, 10.2-inch Retina, A13 Bionic, 64GB, 256GB
+                                            A13 Bionic...
+                                        </p>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="row airpadbg overflow-hidden">
+                                <div class="col-6 ">
+
+                                    <img style="width: 150%; margin-top: -150px; margin-bottom: -380px; margin-left: -141px;"
+                                        class="" src="Images/Iphone14pro 1.png" alt="">
+
+                                </div>
+                                <div class="col-6  p-3 py-5">
+                                    <p class="fs-4 m-0">Apple <br> AirPods <br><b>Max</b></p>
+                                    <p class="m-0 text-white">The ultimate personal listening experience is here.</p>
+                                </div>
+                            </div>
+                        </div>
+                        <div style="background-color: #e6e4e4;" class="col-lg-6 col-12  d-flex align-content-center">
+                            <div class="row align-content-center ">
+                                <div class="col-md-7 col-lg-7 pt-lg-5 col-12 ps-5 pt-3 pt-lg-0">
+                                    <p class="fs-2">Macbook <br><b>Air</b></p>
+                                    <p class="">Get up to ₹8000.00 instant savings on selected Mac models. Plus No Cost
+                                        EMI. Terms apply. Customise your Mac. </p>
+                                    <button class="btn bg-info text-white">Shop Now</button>
+                                </div>
+                                <div
+                                    class="col-md-5 col-lg-5 col-12 py-5 py-lg-0 d-flex d-md-block  justify-content-center ">
+                                    <div>
+                                        <img src="Images/macbook.png" class="macbook" alt="">
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </section>
+
+            <section class="justify-content-center pt-5">
+                <div class="col-12 ps-lg-4 col-lg-9 m-auto d-flex p-3 justify-content-between">
+
+                    <p class="fw-bold">Browse By Category</p>
+
+                    <div>
+                        <i class="fa-solid fa-less-than" style="color: #000000;"></i>
+                        <i class="fa-solid fa-greater-than" style="color: #000000;"></i>
+                    </div>
+
+                </div>
+                <div class="row justify-content-center ">
+                    <div class="col-12 col-lg-12 m-auto">
+                        <div class="row  d-flex justify-content-center ">
+                            <div class="bg-secondary-subtle col-4 mx-2 mx-lg-4  col-lg-1 text-center card p-lg-2 py-3 px-3 mt-2 border-0">
                                 <div>
-                                    <i class="fa-solid fa-mobile " style="color: #7d7d7d;"></i> <br>
+                                    <i class="fa-solid fa-mobile display-6 pb-2" style="color: #7d7d7d;"></i> <br>
                                     <small>Phones</small>
                                 </div>
                             </div>
-                            <div class="col-6 col-lg-2 text-center card p-2 mt-2 border-0">
+                            <div class="bg-secondary-subtle col-4 mx-2 mx-lg-4  col-lg-1   text-center card p-lg-2 py-3 px-3 mt-2 border-0">
                                 <div>
-                                    <i class="fa-solid fa-camera" style="color: #7d7d7d;"></i> <br>
+                                    <i class="fa-solid fa-camera display-6 pb-2" style="color: #7d7d7d;"></i> <br>
                                     <small>Cameras</small>
                                 </div>
                             </div>
-                            <div class="col-6 col-lg-2 text-center card p-2 mt-2 border-0">
+                            <div class="bg-secondary-subtle col-4 mx-2 mx-lg-4   col-lg-1 text-center card p-lg-2 py-3 px-3 mt-2 border-0">
                                 <div>
-                                    <i class="fa-solid fa-headphones" style="color: #7d7d7d;"></i> <br>
+                                    <i class="fa-solid fa-headphones display-6 pb-2" style="color: #7d7d7d;"></i> <br>
                                     <small>Headphones</small>
                                 </div>
                             </div>
-                            <div class="col-6 col-lg-2  text-center card p-2 mt-2 border-0">
+                            <div class="bg-secondary-subtle col-4  mx-2 mx-lg-4  col-lg-1  text-center card p-lg-2 py-3 px-3 mt-2 border-0">
                                 <div>
-                                    <i class="fa-solid fa-computer" style="color: #7d7d7d;"></i> <br>
+                                    <i class="fa-solid fa-computer display-6 pb-2" style="color: #7d7d7d;"></i> <br>
                                     <small>Computers</small>
                                 </div>
                             </div>
-                            <div class="col-6 col-lg-2  text-center card p-2 mt-2 border-0">
+                            <div class="bg-secondary-subtle col-4  mx-2 mx-lg-4  col-lg-1  text-center card p-lg-2 py-3 px-3 mt-2 border-0">
                                 <div>
-                                    <i class="fa-solid fa-laptop" style="color: #7d7d7d;"></i> <br>
+                                    <i class="fa-solid fa-laptop display-6 pb-2" style="color: #7d7d7d;"></i> <br>
                                     <small>Laptope</small>
                                 </div>
                             </div>
-                            <div class="col-6 col-lg-2  text-center card p-2 mt-2 border-0">
+                            <div class="bg-secondary-subtle col-4  mx-2 mx-lg-4   col-lg-1  text-center card p-lg-2 py-3 px-3 mt-2 border-0">
                                 <div>
-                                    <i class="fa-solid fa-gamepad" style="color: #7d7d7d;"></i> <br>
+                                    <i class="fa-solid fa-gamepad display-6 pb-2" style="color: #7d7d7d;"></i> <br>
                                     <small>Gaming</small>
                                 </div>
                             </div>
                         </div>
                     </div>
-                </section>
+            </section>
 
-                <section class="pt-5">
-                    <div class="row">
-                        <div class="col-11  d-flex gap-2 gap-lg-3 col-lg-10 m-auto">
-                            <p class="fw-bold btn "><u>New Arrival</u></p>
-                            <hr class="solid">
-                            <p class="btn">Bestseller</p>
-                            <p class="btn">Featured Products</p>
-                        </div>
-                    </div>
-                    <div class="row ">
-                        <div class="col-11 col-lg-10 m-auto">
-                            <div class="row">
-                                <div class="card col-6 col-md-3 col-lg-3 border-0 text-center p-2 mt-3">
-                                    <div class="text-end">
-                                        <i class="fa-regular fa-heart" style="color: #75777a;"></i>
-                                    </div>
-                                    <img class="p-lg-3 p-2" src="images/Iphone 14 pro 1-2.png" alt="">
-                                    <p class="pt-3">Apple iPhone 14 Pro Max 128GB Deep Purple (MQ9T3RX/A)</p>
-                                    <p>$900</p>
-                                    <div>
-                                        <button class="bg-info text-white btn mx-5">
-                                            Buy Now
-                                        </button>
-                                    </div>
-                                </div>
-                                <div class="card col-6 col-md-3 col-lg-3 border-0 text-center p-2 mt-3">
-                                    <div class="text-end">
-                                        <i class="fa-regular fa-heart" style="color: #75777a;"></i>
-                                    </div>
-                                    <img class="p-lg-3 p-2" src="images/Iphone 14 pro 1-3.png" alt="">
-                                    <p class="pt-3">Blackmagic Pocket Cinema Camera 6k</p>
-                                    <p>$2535</p>
-                                    <div>
-                                        <button class="bg-info text-white btn mx-5">
-                                            Buy Now
-                                        </button>
-                                    </div>
-                                </div>
-                                <div class="card col-6 col-md-3 col-lg-3 border-0 text-center p-2 mt-3">
-                                    <div class="text-end">
-                                        <i class="fa-solid fa-heart" style="color: #df1616;"></i>
-                                    </div>
-                                    <img class="p-lg-3 p-2" src="images/Iphone 14 pro 1-1.png" alt="">
-                                    <p class="pt-3">Apple Watch Series 9 GPS 41mm Starlight Aluminium Case</p>
-                                    <p>$399</p>
-                                    <div>
-                                        <button class="bg-info text-white btn mx-5">
-                                            Buy Now
-                                        </button>
-                                    </div>
-                                </div>
-                                <div class="card col-6 col-md-3 col-lg-3 border-0 text-center p-2 mt-3">
-                                    <div class="text-end">
-                                        <i class="fa-regular fa-heart" style="color: #75777a;"></i>
-                                    </div>
-                                    <img class="p-lg-3 p-2" src="images/Iphone14pro 1.png" alt="">
-                                    <p class="pt-3">AirPods Max Silver</p>
-                                    <p>$549</p>
-                                    <div class="">
-                                        <button class="bg-info text-white btn mx-5">
-                                            Buy Now
-                                        </button>
-                                    </div>
-                                </div>
-                                
+            <section class="pt-5">
+                <div class="row">
+                    <div class="col-12  px-lg-0 d-flex gap-2 gap-lg-3 col-lg-9 ps-lg-4 m-auto">
+                        <div>
+                            <div style="border-bottom: 2px solid black">
+                                <p class="fw-bold btn mb-0">New Arrival</p>
+
                             </div>
                         </div>
-                    
-                </section>
-
-                <section>
-                    <div style="background: #958AD4;" class="row mt-5 py-2">
-                        <div class=" col-12 col-md-4 col-lg-4">
-                            <img style="height: 250px; " class="float-start" src="Images/image 19.png" alt="">
-                        </div>
-                        <div class=" col-12 col-md-4 col-lg-4 text-center d-flex justify-content-center align-items-center">
-                            <div>
-                                <p class="fs-1 fw-bolder">11.11 <span class="text-white">Sale</span></p>
-                                <p class="text-white">Shop hero Bangladesh Brings Shop hero 11.11 Biggest Sale in 2023. Cash on Delivery of 20+ Million Products. </p>
-                            </div>    
-                        </div>
-                        <div class=" col-12 col-md-4 col-lg-4">
-                            <img style="height: 250px;" class="float-end" src="Images/c4e83cbf926e63efe881b44d767d0524.png" alt="">
-                        </div>
-                    </div>
-                </section>
-            </div>
-        </main>
-        <footer class=" bg-dark text-white">
-            <div class="col-11 col-lg-10 m-auto">
-                <div class="row py-5 text-center text-md-start ">
-                    <div class="col-12 col-md-3 col-lg-3 d-flex justify-content-center">
-                        <img style="height: 50px;" src="Images/shortcut-script-app 1.png" alt="">
-                        <p class="fw-bold fs-2">SHOP HERO</p>
-                    </div>
-                    <div class="col-12 col-md-3 col-lg-3 d-flex pt-3 mt-3 mt-md-0 d-none d-md-block">
-                        <i class="px-3 fa-brands fa-twitter" style="color: #fcfcfc;"></i>
-                        <i class="px-3 fa-brands fa-facebook" style="color: #fcfcfc;"></i>
-                        <i class="px-3 fa-brands fa-tiktok" style="color: #fcfcfc;"></i>
-                        <i class="px-3 fa-brands fa-instagram" style="color: #fcfcfc;"></i>
-
-                    </div>
-                    <div class="col-12 col-md-3 col-lg-3  mt-3 mt-md-0">
-                        <p><i>Services</i></p>
-                        <p>Bonus program</p>
-                        <p>Gift cards</p>
-                        <p>Credit and payment</p>
-                        <p>Service contracts</p>
-                        <p>Non-cash account</p>
-                        <p>Payment</p>
-                    </div>
-                    <div class="col-12 col-md-3 col-lg-3  mt-3 mt-md-0">
-                        <p><i>Assistance to the buyer</i></p>
-                        <p>Find an order</p>
-                        <p>Terms of delivery</p>
-                        <p>Exchange and return of goods</p>
-                        <p>Guarantee</p>
-                        <p>Frequently asked questions</p>
-                        <p>Terms of use of the site</p>
-                    </div>
-                    <div class="col-12 col-md-3 col-lg-3 d-flex justify-content-center pt-3 mt-3 mt-md-0 d-md-none d-block">
-                        <i class="px-3 fa-brands fa-twitter" style="color: #fcfcfc;"></i>
-                        <i class="px-3 fa-brands fa-facebook" style="color: #fcfcfc;"></i>
-                        <i class="px-3 fa-brands fa-tiktok" style="color: #fcfcfc;"></i>
-                        <i class="px-3 fa-brands fa-instagram" style="color: #fcfcfc;"></i>
-
+                        <hr class="solid">
+                        <p class="btn">Bestseller</p>
+                        <p class="btn">Featured Products</p>
                     </div>
                 </div>
+                <div class="row ">
+                    <div class=" col-lg-12 m-auto">
+                        <div class="row d-flex justify-content-center ">
+                            <div class="card mx-1 bg-secondary-subtle col-5 col-md-2 col-lg-2 border-0 text-center p-2 mt-3">
+                                <div class="text-end">
+                                    <i class="fa-regular fa-heart" style="color: #75777a;"></i>
+                                </div>
+                                <img class="p-lg-3 p-2" src="images/Iphone 14 pro 1-2.png" alt="">
+                                <p class="pt-3">Apple iPhone 14 Pro Max 128GB Deep Purple (MQ9T3RX/A)</p>
+                                <p>$900</p>
+                                <div>
+                                    <button class="bg-info text-white btn mx-3">
+                                        Buy Now
+                                    </button>
+                                </div>
+                            </div>
+                            <div class="card mx-1 bg-secondary-subtle col-5 col-md-2 col-lg-2 border-0 text-center p-2 mt-3">
+                                <div class="text-end">
+                                    <i class="fa-regular fa-heart" style="color: #75777a;"></i>
+                                </div>
+                                <img class="p-lg-3 p-2" src="images/Iphone 14 pro 1-3.png" alt="">
+                                <p class="pt-3">Blackmagic Pocket Cinema Camera 6k</p>
+                                <p>$2535</p>
+                                <div>
+                                    <button class="bg-info text-white btn mx-3">
+                                        Buy Now
+                                    </button>
+                                </div>
+                            </div>
+                            <div class="card mx-1 bg-secondary-subtle col-5 col-md-2 col-lg-2 border-0 text-center p-2 mt-3">
+                                <div class="text-end">
+                                    <i class="fa-solid fa-heart" style="color: #df1616;"></i>
+                                </div>
+                                <img class="p-lg-3 p-2" src="images/Iphone 14 pro 1-1.png" alt="">
+                                <p class="pt-3">Apple Watch Series 9 GPS 41mm Starlight Aluminium Case</p>
+                                <p>$399</p>
+                                <div>
+                                    <button class="bg-info text-white btn mx-3">
+                                        Buy Now
+                                    </button>
+                                </div>
+                            </div>
+                            <div class="mx-1 card bg-secondary-subtle col-5 col-md-2 col-lg-2 border-0 text-center p-2 mt-3">
+                                <div class="text-end">
+                                    <i class="fa-regular fa-heart" style="color: #75777a;"></i>
+                                </div>
+                                <img class="p-lg-3 p-2" src="images/Iphone14pro 1.png" alt="">
+                                <p class="pt-3">AirPods Max Silver</p>
+                                <p>$549</p>
+                                <div class="">
+                                    <button class="bg-info text-white btn mx-3">
+                                        Buy Now
+                                    </button>
+                                </div>
+                            </div>
+
+                        </div>
+                    </div>
+
+            </section>
+
+            <section>
+                <div style="background: #958AD4;" class="row mt-5 py-0 py-md-5">
+                    <div class=" col-12 col-md-4 col-lg-4 overflow-hidden">
+                        <img style="height: 250px;" class="float-start saleimg01" src="Images/image 19.png" alt="">
+                    </div>
+                    <div class=" col-12 col-md-4 col-lg-4 text-center d-flex justify-content-center align-items-center">
+                        <div>
+                            <p class="" style="font-size: 50px; color:#25177B; font-weight: 900; ">11.11 <span
+                                    class="text-white">Sale</span></p>
+                            <p class="text-white text-center px-4">Shop hero Bangladesh Brings Shop hero 11.11 Biggest Sale in 2023. Cash
+                                on Delivery of 20+ Million Products. </p>
+                        </div>
+                    </div>
+                    <div class=" col-12 col-md-4 col-lg-4 overflow-hidden">
+                        <img style="height: 250px; transform: rotatey(180deg);"
+                            class="px-5, px-md-2 saleimg02 float-end" src="Images/c4e83cbf926e63efe881b44d767d0524.png"
+                            alt="">
+                    </div>
+                </div>
+            </section>
+        </div>
+    </main>
+
+    <footer class="row bg-dark text-white">
+        <div class="col-12 col-lg-10 m-auto">
+            <div class="row py-5 text-center text-md-start ">
+                <div class="col-12 col-md-3 col-lg-3 d-flex justify-content-center">
+                    <img style="height: 50px;" src="Images/shortcut-script-app 1.png" alt="">
+                    <p class="fw-bold fs-2">SHOP HERO</p>
+                </div>
+                <div class="col-12 col-md-3 col-lg-3 d-flex pt-3 mt-3 mt-md-0 d-none d-md-block">
+                    <i class="px-3 fa-brands fa-twitter" style="color: #fcfcfc;"></i>
+                    <i class="px-3 fa-brands fa-facebook" style="color: #fcfcfc;"></i>
+                    <i class="px-3 fa-brands fa-tiktok" style="color: #fcfcfc;"></i>
+                    <i class="px-3 fa-brands fa-instagram" style="color: #fcfcfc;"></i>
+
+                </div>
+                <div class="col-12 col-md-3 col-lg-3  mt-3 mt-md-0">
+                    <p><i>Services</i></p>
+                    <p>Bonus program</p>
+                    <p>Gift cards</p>
+                    <p>Credit and payment</p>
+                    <p>Service contracts</p>
+                    <p>Non-cash account</p>
+                    <p>Payment</p>
+                </div>
+                <div class="col-12 col-md-3 col-lg-3  mt-3 mt-md-0">
+                    <p><i>Assistance to the buyer</i></p>
+                    <p>Find an order</p>
+                    <p>Terms of delivery</p>
+                    <p>Exchange and return of goods</p>
+                    <p>Guarantee</p>
+                    <p>Frequently asked questions</p>
+                    <p>Terms of use of the site</p>
+                </div>
+                <div class="col-12 col-md-3 col-lg-3 d-flex justify-content-center pt-3 mt-3 mt-md-0 d-md-none d-block">
+                    <i class="px-3 fa-brands fa-twitter" style="color: #fcfcfc;"></i>
+                    <i class="px-3 fa-brands fa-facebook" style="color: #fcfcfc;"></i>
+                    <i class="px-3 fa-brands fa-tiktok" style="color: #fcfcfc;"></i>
+                    <i class="px-3 fa-brands fa-instagram" style="color: #fcfcfc;"></i>
+
+                </div>
             </div>
-        </footer>
-        <!-- scripts -->
-        <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-C6RzsynM9kWDrMNeT87bh95OGNyZPhcTNXj1NW7RuBCsyN/o0jlpcV8Qyq46cDfL" crossorigin="anonymous"></script>
-    </body>
+        </div>
+    </footer>
+    <!-- scripts -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-C6RzsynM9kWDrMNeT87bh95OGNyZPhcTNXj1NW7RuBCsyN/o0jlpcV8Qyq46cDfL"
+        crossorigin="anonymous"></script>
+</body>
+
 </html>

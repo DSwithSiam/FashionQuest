@@ -2,6 +2,7 @@
     background-color: #1A187A;
     
 }
+
 .logo{
     height: 40px;
 }
@@ -26,4 +27,49 @@
 
 .solid{
     border-top: 3px solid #000000;
+}
+
+
+@media (min-width: 0px) and (max-width: 425px) {
+    .macbook{
+        width: 350px;
+    }
+    .saleimg01{
+            
+            margin-top: -60px;
+            padding-left: 120px;
+            padding-bottom: 30px;
+        }
+    .saleimg02{
+        margin-bottom: -50px;
+        margin-right: -130px;
+    }
+}
+@media (min-width: 426px) and (max-width: 1024px) {
+    .macbook{
+        width: 400px;
+    }
+    .saleimg01{
+        
+        margin-left: -100px;
+        
+    }
+    .saleimg02{
+        margin-right: -150px;
+    }
+}
+@media (min-width: 1025px) and (max-width: 1440px) {
+    .macbook{
+        width: 550px;
+    }
+    .saleimg01{
+        
+        margin-left: -100px;
+        
+    }
+    .saleimg02{
+        margin-right: -100px;
+    }
+
+    
 }
